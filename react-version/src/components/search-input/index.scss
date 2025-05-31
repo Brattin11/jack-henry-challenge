@@ -1,0 +1,35 @@
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px;
+
+    h3 {
+        display: contents;
+    }
+
+    input {
+        padding: 12px 8px;
+        font-size: 16px;
+        background-color: #282828;
+        border: none;
+        color: #F5F5F5;
+        border-radius: 4px;
+        width: 20vw;
+    }
+
+    button {
+        padding: 12px 8px;
+        font-size: 16px;
+        background-color: #F5F5F5;
+        border: none;
+        border-radius: 4px;
+        color: #282828;
+        margin-left: 8px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
