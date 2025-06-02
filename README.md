@@ -3,6 +3,8 @@ A Youtube search application using the Youtube API. Solutions in React and Web C
 
 
 ### Lit version start guide
+Modified from [Lit Starter application](https://github.com/lit/lit-element-starter-js)
+
 ```
 cd lit-version
 cp env-example.js env.js
