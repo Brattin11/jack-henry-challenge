@@ -20,6 +20,6 @@ cd react-version
 cp env.example .env
 // paste your Youtube API key into .env REACT_APP_YOUTUBE_API_KEY
 npm i
-npm run dev
+npm run start
 ```
 Source files: `react-version/src/components/**` `react-version/src/app.js`
