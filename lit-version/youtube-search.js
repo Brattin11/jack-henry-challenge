@@ -79,12 +79,6 @@ export class YouTubeVideoCard extends LitElement {
 }
 customElements.define('youtube-video-card', YouTubeVideoCard);
 
-/**
- * An example element.
- *
- * @slot - This element has a slot
- * @csspart button - The button
- */
 export class YoutubeSearch extends LitElement {
   static get styles() {
     return css`
