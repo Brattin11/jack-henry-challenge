@@ -6,7 +6,7 @@ const SearchResults = ({ videos }) => {
     return (
         <div className="results-container">
             {
-                videos.map(([video, index]) => <VideoCard key={index} video={video} />)
+                videos.map(video => <VideoCard key={video.id.videoId} video={video} />)
             }
         </div>
     )

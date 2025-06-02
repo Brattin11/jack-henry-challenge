@@ -7,7 +7,7 @@ import SearchResults from '../search-results';
 const YoutubeSearch = () => {
     const params = new URLSearchParams(window.location.search);
     const query = params.get('query');
-    const [searchQuery, setSearchQuery] = React.useState(query);
+    const [searchQuery, setSearchQuery] = React.useState(query || "");
     const [videos, setVideos] = React.useState([]);
     const [sortType, setSortType] = React.useState("relevance");
 
